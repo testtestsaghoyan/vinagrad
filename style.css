@@ -1,0 +1,121 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header .navbar{
+   padding: 1rem 4%;
+   display: flex;
+   align-items: center;
+}
+
+header ul {
+   display: flex;
+   align-items: center;
+   list-style: none;
+}
+header li {
+   margin: ;
+}
+
+header .navbar button{
+   padding: 10px 20px;
+   background-color: #3c6501;
+   border: none;
+   border-radius: 30px;
+   color: #fff;
+   cursor: pointer;
+}
+
+/*hero section*/
+.hero .heroText {
+   max-width: 500px;
+}
+.hero{
+   padding: 2rem;
+}
+.hero heroText h3{
+   font-size: 30px;
+}
+.hero .heroText h1{
+   font-size: 50px;
+}
+hero heroText p{
+   margin-bottom: 20px;
+}
+hero .heroImg{
+   max-width: 800px;
+}
+hero heroImg img{
+   width: 100%;
+   height: 100%;
+}
+/*Service*/
+.service{
+   padding: 5rem 4%;
+   background-color: #3c6501;
+}
+.service .card{
+   width: 350px;
+   text-align: center;
+   color: #fff;
+   padding: 20px;
+   border-radius: 10px;
+   transition: 5s;
+}
+.service .card i{
+    color: #fff;
+    font-size: 40px;
+}
+.service .card h2{
+   margin: 20px 0;
+}
+.service .card:hover{
+   background-color: #fff;
+   color: black;
+}
+/*features*/
+.features{
+   display: flex;
+   justify-content: center;
+   padding: 5rem 0;
+}
+.features .featuresText{
+   max-width: 500px;
+}
+.features .featuresText h1{
+   font-size: 60px;
+   margin-bottom: 30px;
+}
+.features .featuresText p{
+   color: #a09392;
+   margin-bottom: 20px;
+}
+/*product*/
+.product{
+   padding: 4px 4%;
+}
+.product .productText{
+max-width: 600px; 
+}
+.product .productText h3{
+   font-size: 30px;
+   color: #3c6501;
+}
+.product .producttext h1{
+   font-size: 50px;
+}
+.product .productText ul{
+   display: flex;
+   list-style: none;
+}
+.product .producttext li{
+   margin-right: 30px;
+   border: 1px solid #3c6501;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
